@@ -236,10 +236,12 @@ img {
   position: absolute;
   display: block;
   right: 0;
+  left: 550px;
   bottom: 0;
-  width: 860px;
-  height: 470px;
+  width: 550px !important;
+  height: 490px !important;
 }
+
 
 
 .home__blob {
@@ -325,8 +327,7 @@ img {
 }
 .skills__list {
   padding: .3rem 2rem;
-  list-style-type: disc; /* Use disc for filled bullets */
-  /* Additional styling properties can be added here */
+  list-style-type: disc; 
 }
 .skills__item {
   padding: .1rem ;
