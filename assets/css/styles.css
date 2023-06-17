@@ -297,17 +297,20 @@ img {
   padding: 0;
   margin: 0;
   padding-left: 20px; /* Add left padding to move the list to the left side */
+
 }
 
 
 .skills__item {
   font-size: 1.2rem;
   margin-bottom: 10px;
-  transition: transform 0.3s ease;
   color: #333;
   font-weight: bold; /* Make the font bold */
   position: relative; /* Add positioning for the bullets */
   padding-left: 20px; /* Add space for the bullets */
+  transition: transform 0.3s ease; /* Add transition effect */
+
+
 }
 
 .skills__item::before {
