@@ -165,6 +165,14 @@ img {
 .nav__logo {
   color: var(--second-color);
 }
+.nav__logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 200px; /* Adjust the width to your desired size */
+  max-height: 200px; /* Adjust the max-height to your desired size */
+}
+
 
 .nav__toggle {
   color: var(--second-color);
@@ -226,12 +234,13 @@ img {
 
 .home__img {
   position: absolute;
+  display: block;
   right: 0;
   bottom: 0;
-  width: 560px;
-  justify-self: center;
-
+  width: 860px;
+  height: 470px;
 }
+
 
 .home__blob {
   fill: var(#fff);
