@@ -308,7 +308,6 @@ img {
   font-weight: bold; /* Make the font bold */
   position: relative; /* Add positioning for the bullets */
   padding-left: 20px; /* Add space for the bullets */
-  transition: transform 0.3s ease; /* Add transition effect */
 
 
 }
@@ -326,7 +325,6 @@ img {
   width: 300px; /* Increase the image size */
   height: auto;
   border-radius: 0.3rem;
-  transition: transform 0.3s ease;
   order: 4; /* Move the image to the right side */
   margin-left: 150px;
 }
@@ -349,7 +347,6 @@ img {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 4px 10px rgba(0, 0, 255, 0.2);
-  transition: transform 0.3s ease;
   align-items: center;
 }
 
